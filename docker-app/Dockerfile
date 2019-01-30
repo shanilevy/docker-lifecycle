@@ -1,4 +1,4 @@
-FROM ubuntu:5002/docker-framework:latest
+FROM docker-prod.jfrog.team/docker-framework:latest
 
 MAINTAINER Jon Roquelaure jonathanr@jfrog.com
 
