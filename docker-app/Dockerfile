@@ -1,4 +1,4 @@
-FROM docker-prod.jfrog.team/docker-framework:latest
+FROM ubuntu:5002/docker-framework:latest
 
 MAINTAINER Shani Levy shanil@jfrog.com
 
