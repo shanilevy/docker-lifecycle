@@ -1,6 +1,6 @@
-FROM ubuntu:5001/nginx:latest
+FROM docker-dev.jfrog.team/nginx:latest
 
-MAINTAINER Jon Roquelaure jonathanr@jfrog.com
+MAINTAINER Shani Levy shanil@jfrog.com
 
 RUN /bin/bash -c cd ~; cd /home ; mkdir -p exec
 ADD jdk/jdk-8-linux-x64.tar.gz /home/exec
