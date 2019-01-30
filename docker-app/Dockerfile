@@ -4,7 +4,7 @@ MAINTAINER Shani Levy shanil@jfrog.com
 
 COPY ui/ /usr/share/nginx/html/
 
-RUN sed -i "s+http://localhost:9000/+/ws/+g" /usr/share/nginx/html/frogsui/app/app.js
+RUN sed -i "s+http://localhost:9000/+/ws/+g" /usr/share/nginx/html/frogsui/package/app/app.js
 ADD jar/*.jar /ws/frogsws.jar
 COPY conf/ws.conf /etc/nginx/conf.d/ws.conf
 
