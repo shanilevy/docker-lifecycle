@@ -1,6 +1,6 @@
 FROM docker-prod.jfrog.team/docker-framework:latest
 
-MAINTAINER Jon Roquelaure jonathanr@jfrog.com
+MAINTAINER Shani Levy shanil@jfrog.com
 
 COPY ui/ /usr/share/nginx/html/
 
